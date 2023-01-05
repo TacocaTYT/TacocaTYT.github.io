@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     color: white;
     font-family: 'Courier New', monospace;
     display: flex;
@@ -24,7 +24,7 @@ to {
 button {
     border: 2px solid white;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     color: white;
     padding: 10px 80px;
     
