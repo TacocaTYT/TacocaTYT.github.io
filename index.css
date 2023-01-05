@@ -31,7 +31,16 @@ button {
     font-weight: bold;
     padding: 20px 20px;
     margin-top: 10px;
-    width: 50%;
+    width: 40%;
+}
+.btnimg {
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    max-width: 10%;
+    max-height: 90%;
+    height: auto;
+    transform: translateY(-50%);
 }
 
 a:link, a:visited {
