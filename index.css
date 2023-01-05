@@ -31,7 +31,7 @@ button {
     font-weight: bold;
     padding: 20px 20px;
     margin-top: 10px;
-    width: 80%;
+    width: 50%;
 }
 
 a:link, a:visited {
@@ -46,11 +46,11 @@ a:hover, a:active {
 
 
 h1 {
-    font-size: xx-large;
+    font-size: 40px;
     font-weight: bolder;
 }
 
 p {
-    font-size: 85%;
+    font-size: 35px;
     font-weight: bold;
 }
