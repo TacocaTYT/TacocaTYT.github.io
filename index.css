@@ -29,8 +29,8 @@ button {
     font-family: 'Courier New', monospace;
     font-size: large;
     font-weight: bold;
-    padding: 20px 300px;
-    margin-top: 30px;
+    padding: 15px 300px;
+    margin-top: 10px;
 }
 
 a:link, a:visited {
