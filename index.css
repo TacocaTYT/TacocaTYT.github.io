@@ -26,6 +26,7 @@ button {
     border-radius: 10px;
     background-color: rgb(19, 19, 19);
     color: white;
+    font-family: 'Courier New', monospace;
     padding: 10px 80px;
     
 }
