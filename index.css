@@ -34,7 +34,7 @@ button {
     width: 40%;
 }
 .btnimg {
-    position: absolute;
+    position: relative;
     left: 6px;
     top: 50%;
     max-width: 10%;
