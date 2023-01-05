@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(19, 19, 19);
+    background-color: darkslategrey;
     color: white;
     font-family: 'Courier New', monospace;
     display: flex;
@@ -24,13 +24,18 @@ to {
 button {
     border: 2px solid white;
     border-radius: 10px;
-    background-color: rgb(19, 19, 19);
+    background-color: darkslategrey;
     color: white;
     font-family: 'Courier New', monospace;
     padding: 10px 80px;
-    
 }
 
-a {
+a:link, a:visited {
     text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: rgb(21, 21, 21)
 }
