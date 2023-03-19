@@ -1,5 +1,22 @@
-body {
-    background-color: rgb(19,19,19);
+header {
+    background-color: #000000;
+    color: #fff;
+    height: 60px;
+    border-bottom: 3px solid #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+}
+  
+
+.content {
     color: white;
     font-family: 'Courier New', monospace;
     display: flex;
@@ -9,6 +26,10 @@ body {
     margin-top: 100px;
     animation: fadeInFromLeft 2s;
 }
+body {
+    background-color: rgb(19,19,19);
+}
+
 
 @keyframes fadeInFromLeft {
 from {
