@@ -6,22 +6,26 @@
     <title>404</title>
     <style>
         .error {
+            background-color: rgb(19, 19, 19);
+            color: white;
             animation: fadeInFromLeft 2s;
         }
+        .error > div {
+            text-align: center;
+            margin: auto;
+            margin-top:20%;
+            width: 40%;
+            font-size: 25;
+            font-style: oblique;
+        }
         @keyframes fadeInFromLeft {
-from {
-    transform: translateX(-50%);
-    opacity: 0;
-}
-to {
-    transform: translateX(0);
-    opacity: 1;
-}
-}
+            from {transform: translateX(-50%);opacity: 0;}
+            to {transform: translateX(0);opacity: 1;}
+        }
     </style>
 </head>
-<body class="error" style="background-color: rgb(19, 19, 19);">
-    <div style="text-align: center; margin: auto; margin-top:20%; width: 40%; font-size: 25; font-style: oblique;">
+<body class="error">
+    <div>
         <p>404 - please check back later if you reached this page through a button on the previous page</p>
     </div>
 </body>
