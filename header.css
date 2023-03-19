@@ -1,0 +1,33 @@
+.siteHeader {
+    background-color: #000000;
+    color: #fff;
+    height: 12%;
+    border-bottom: 3px solid #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+    z-index: 1;
+}
+.siteHeader p {
+    font-size: 9vh;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 2vw;
+}
+.siteHeader a {
+    color: white;
+    text-decoration: none;
+}
+.siteHeader > .blinkingCursor {
+    transform: translateX(-35px);
+    animation: blink 1s infinite steps(1, end);
+}
+@keyframes blink {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    51% {opacity: 1;}
+    100% {opacity: 1;}
+}
