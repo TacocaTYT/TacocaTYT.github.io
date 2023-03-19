@@ -1,3 +1,32 @@
+#siteHeader {
+    background-color: #000000;
+    color: #fff;
+    height: 12%;
+    border-bottom: 3px solid #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+  }
+  #siteHeader p {
+    font-size: 9vh;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 2vw;
+  }
+  #siteHeader > #blinkingCursor {
+    transform: translateX(-35px);
+    animation: blink 1s infinite steps(1, end);
+  }
+  @keyframes blink {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    51% {opacity: 1;}
+    100% {opacity: 1;}
+  }
+
 body {
     font-family: Garamond, serif;
     background: linear-gradient(to bottom, skyblue, lightblue, white);
@@ -5,11 +34,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: static;
+    margin-top: 12vh;
 }
-header {
+.articleHeader {
     align-items: center;
+    margin-top: 12vh;
 }
-header img {
+.articleHeader img {
     height: 30px;
     width: auto;
     margin-top: 20px;
