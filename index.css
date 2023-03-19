@@ -29,25 +29,13 @@ button {
     font-family: 'Courier New', monospace;
     font-size: large;
     font-weight: bold;
-    padding: 20px 20px;
-    margin-top: 10px;
-    width: 40%;
 }
-.btnimg {
-    position: relative;
-    left: 6px;
-    top: 50%;
-    max-width: 10%;
-    max-height: 90%;
-    height: auto;
-    transform: translateY(-50%);
-}
+
 
 a:link, a:visited {
     text-decoration: none;
     color: white;
 }
-
 a:hover, a:active {
     text-decoration: none;
     color: rgb(48, 48, 48)
@@ -62,4 +50,46 @@ h1 {
 p {
     font-size: 20px;
     font-weight: bold;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#socials > button {
+    padding: 20px 20px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+#siteDirectory {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+#siteDirectory > button {
+    width: 60%;
+    padding: 20px;
+    margin-right: 35%;
+    margin-top: 10px;
+}
+
+#recentPost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+#recentPost > button {
+    width: 60%;
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 10px;
 }
