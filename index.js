@@ -5,7 +5,7 @@ fetch("news/posts/")
     .then(response => response.text())
     .then((data) => console.log(data));
 
-const postURL = "404.html";
+const postURL = "404";
 
 
 rpb.textContent = postTitle;
