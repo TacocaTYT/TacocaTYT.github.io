@@ -38,6 +38,13 @@ h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
 }
+h4 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 hr {
     border: none;
     border-top: 2px solid #00132c;
