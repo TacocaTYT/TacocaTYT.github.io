@@ -1,0 +1,79 @@
+body {
+    font-family: Garamond, serif;
+    background: linear-gradient(to bottom, rgb(226, 209, 56), rgb(255, 202, 80), rgb(255, 146, 63));
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: static;
+    margin-top: 12vh;
+}
+.articleHeader {
+    align-items: center;
+    margin-top: 12vh;
+}
+.articleHeader img {
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+hr {
+    border: none;
+    border-top: 2px solid #00132c;
+    margin: 20px 0;
+}
+article {
+    margin: 0 30%;
+    color: #00132c;
+}
+@media (max-width: 767px) {
+    article {
+        margin: 0 15%;
+    }
+}
+
+.photo-card {
+  /* Shrinks the figure container to match the exact width of the image */
+    width: fit-content; 
+    max-width: 100%\\; /* Prevents overflow on small screens */
+    margin: 1.5rem 0; /* Adjust spacing/centering as needed */
+}
+
+.photo-card img {
+    display: block; /* Removes the tiny default whitespace gap below images */
+    max-width: 100%; /* Ensures the image scales down responsibly on mobile */
+    height: auto;
+}
+
+.photo-card figcaption {
+    /* Wraps text at 2/3 of the parent (.photo-card) width, which equals the image width */
+    max-width: 66.67%; 
+    
+    /* Left alignment and typography */
+    text-align: left;
+    font-size: 0.85rem; /* Smaller font size relative to body text */
+    line-height: 1.4;
+    color: #2f2f2f;
+    margin-top: 0.5rem;
+}
